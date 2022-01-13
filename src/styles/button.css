@@ -1,0 +1,17 @@
+:root {
+  --primary: #9f8268;
+  --secondary: #000000;
+  --accent: #fdf4ec;
+
+  --color-headings: #9f8268;
+  --color-body: black;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}

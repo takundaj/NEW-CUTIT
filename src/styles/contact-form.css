@@ -1,0 +1,35 @@
+.about-us_contact-form fieldset {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+.about-us_contact-form fieldset label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.about-us_contact-form fieldset input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid var(--primary);
+  padding: 1rem;
+}
+
+.about-us_contact-form fieldset textarea {
+  border-radius: 5px;
+  border: none;
+  border: 1px solid var(--primary);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.about-us_contact-form button {
+  box-shadow: none;
+  margin: auto;
+}

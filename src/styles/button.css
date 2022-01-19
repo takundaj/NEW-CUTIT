@@ -7,11 +7,71 @@
   --color-body: black;
 }
 
+/* Standard button */
+
 .btn {
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background-color: var(--primary);
   color: #fff;
   font-weight: bold;
   cursor: pointer;
+  border: none;
+  box-shadow: 0 0 5px black;
+  margin: 1rem;
+}
+
+/* how to button */
+.how-to-btn {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  box-shadow: 0 0 1rem var(--primary);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem auto;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.how-to-btn-icon {
+  padding: 2rem;
+  color: var(--primary);
+}
+
+/* app store button */
+.app-store-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  padding-right: 2rem;
+  height: fit-content;
+  margin: 0 0.5rem;
+}
+
+.app-store-btn-black {
+  background-color: black;
+  color: white;
+}
+
+.app-store-btn_img {
+  padding: 1rem 1rem;
+  padding-right: 2rem;
+}
+
+.app-store-btn-ios img {
+  padding: 0.75rem;
+  padding-right: 2rem;
+}
+
+.app-store-btn_text p {
+  margin: 0;
+}
+
+.app-store-btn_description {
+  font-size: 1.4rem;
 }

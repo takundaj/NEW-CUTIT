@@ -7,12 +7,12 @@ class navBar {
   init() {}
 
   drop() {
-    this.dropdown.classList.remove("hide");
+    this.dropdown.classList.add("collapsed");
     this.trigger.style.color = "#9f8268";
   }
 
   fold() {
-    this.dropdown.classList.add("hide");
+    this.dropdown.classList.remove("collapsed");
     this.trigger.style.color = "black";
   }
 }

@@ -18,6 +18,11 @@ nav {
   margin-right: 1rem;
 }
 
+.logo-text {
+  font-family: "lulo clean bold";
+  letter-spacing: -3px;
+}
+
 /* nav list */
 
 .nav-logo h1 {
@@ -32,10 +37,16 @@ nav ul li {
   margin: 0 1rem;
 }
 
+nav ul li a {
+  font-size: 1.4rem;
+}
+
 /* nav button */
 
 .nav-btn {
   display: none;
+  border: none;
+  box-shadow: 0 0 2px black;
 }
 
 /* nav subscribe menu icon*/
@@ -56,9 +67,14 @@ nav i {
   margin-bottom: 2vw;
 }
 
+.nav-dropdown ul li a {
+  font-size: 1.4rem;
+}
+
 /* nav */
 
 .nav-trigger:hover {
+  display: inline-block;
   color: #9f8268;
 }
 

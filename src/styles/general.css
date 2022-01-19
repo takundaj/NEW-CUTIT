@@ -7,6 +7,22 @@
   --color-body: black;
 }
 
+@font-face {
+  font-family: "lulo clean bold";
+  src: url("../fonts/lulo_clean_one_bold-webfont.woff2") format("woff2"),
+    url("../fonts/lulo_clean_one_bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lulo clean";
+  src: url("../fonts/lulo_clean_one-webfont.woff2") format("woff2"),
+    url("../fonts/lulo_clean_one-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -58,8 +74,13 @@ p {
 
 a {
   font-size: 1.6rem;
-  color: var(--primary);
+  color: #000000;
   cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary);
 }
 
 ul {
@@ -73,6 +94,14 @@ li {
 
 .luloclean {
   font-family: "lulo clean", sans-serif;
+  letter-spacing: -2px;
+  word-spacing: 7.5px;
+}
+
+.luloclean-bold {
+  font-family: "lulo clean bold", sans-serif;
+  letter-spacing: -2px;
+  word-spacing: 7.5px;
 }
 
 .monserrat {
@@ -95,15 +124,38 @@ li {
   display: none;
 }
 
-/* layouts */
+.brown {
+  color: var(--primary);
+}
+
+/* Layouts */
 section {
   border: 2px solid black;
 }
 
 .container {
-  width: 70%;
+  width: 90%;
   margin: 5vw auto;
   border: 2px solid black;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 70%;
+  }
+}
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.section-intro .heading,
+h2 {
+  font-size: 3rem;
+  letter-spacing: -2px;
+  word-spacing: 3px;
+  margin-bottom: 2rem;
 }
 
 .grid {
@@ -111,7 +163,12 @@ section {
 }
 
 .col2row1 {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.col3row1 {
+  grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: 1fr;
 }
 
@@ -120,8 +177,20 @@ section {
   grid-template-rows: 1fr;
 }
 
+.col2row5 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+}
+
 .seperator {
   background-color: #9f8268;
   height: 2px;
   width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .col2row1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
 }

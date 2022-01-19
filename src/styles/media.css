@@ -1,0 +1,40 @@
+.media {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5vw auto;
+}
+
+.media-icon-container {
+  margin-right: 1rem;
+}
+
+.media-icon-container img {
+  width: 5rem;
+}
+
+.media-text-container h3 {
+  font-size: 1.6rem;
+  word-spacing: 1px;
+}
+
+.media-text-container p {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .media-icon-container {
+    margin-right: 2rem;
+  }
+
+  .media-icon-container img {
+    width: 8rem;
+  }
+
+  .media-text-container h3 {
+    font-size: 1.8rem;
+  }
+
+  .media-text-container p {
+    font-size: 1.6rem;
+  }
+}

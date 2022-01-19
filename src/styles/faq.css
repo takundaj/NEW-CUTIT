@@ -1,0 +1,43 @@
+:root {
+  --primary: #9f8268;
+  --secondary: #000000;
+  --accent: #fdf4ec;
+
+  --color-headings: #9f8268;
+  --color-body: black;
+}
+
+.faq-btn {
+  background-color: var(--primary);
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  color: #fff;
+  margin: 1rem;
+}
+
+.faq-trigger {
+  display: flex;
+  align-items: center;
+}
+
+.faq-trigger i {
+  margin-right: 1vw;
+  font-size: 3rem;
+}
+
+.faq-content p {
+  border-top: 1px solid #fff;
+  padding-top: 1rem;
+}
+
+.faq-collapsible {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.faq-collapsible.faq-collapsed {
+  max-height: 100vh;
+  opacity: 1;
+  transition: all 1s;
+}

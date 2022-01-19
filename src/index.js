@@ -7,6 +7,7 @@ import "./styles/faq.css";
 import "./styles/price-card.css";
 import "./styles/page.css";
 import "./styles/contact-form.css";
+import "./styles/footer.css";
 
 // import Swiper and modules styles
 import "swiper/css";

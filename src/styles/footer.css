@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "lulo clean bold";
+  src: url("../fonts/lulo_clean_one_bold-webfont.woff2") format("woff2"),
+    url("../fonts/lulo_clean_one_bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lulo clean";
+  src: url("../fonts/lulo_clean_one-webfont.woff2") format("woff2"),
+    url("../fonts/lulo_clean_one-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary: #9f8268;
+  --secondary: #000000;
+  --accent: #fdf4ec;
+
+  --color-headings: #9f8268;
+  --color-body: black;
+}
+
+footer {
+  background: var(--accent);
+  padding: 1rem 0;
+}
+
+.footer-grid {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, fit-content);
+  border: 1px solid black;
+  grid-row-gap: 2rem;
+}
+
+.footer-grid .links {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.footer-grid .footer-logo {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.footer-grid .download-buttons {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+
+.footer-grid .socials {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+.footer-grid .credits {
+  grid-row: 3/4;
+  grid-column: 1/3;
+  font-size: 1.4rem;
+}
+
+.footer-grid .credits a {
+  font-size: 1.4rem;
+}
+
+.footer-grid .app-store-btn {
+  margin: 0.5rem;
+  width: 17rem;
+  font-size: 1.4rem;
+  padding: 0.2rem;
+}
+
+.footer-grid .app-store-btn .app-store-btn_img {
+  width: 5rem;
+}
+
+.footer-grid .footer-logo img {
+  width: 4rem;
+}
+
+.footer-grid .footer-logo h1 {
+  font-size: 2rem;
+  font-family: "lulo clean bold";
+  letter-spacing: -5px;
+}
+
+.footer-grid .socials i {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+}
+
+.footer-grid .links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-grid .links ul li {
+  margin-bottom: 1.5rem;
+}
+
+.footer-grid .links ul li a {
+  font-size: 1.4rem;
+}
+
+.footer-grid .download-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-grid .footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-grid .socials {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-grid .footer-logo img {
+    width: 6rem;
+  }
+  .footer-grid .footer-logo h1 {
+    font-size: 4rem;
+  }
+
+  .footer-grid .socials i {
+    font-size: 5rem;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-grid {
+    width: 90%;
+    margin: auto;
+  }
+
+  .footer-grid .links {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .footer-grid .links ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-grid .links ul li {
+    margin-right: 2rem;
+  }
+
+  .footer-grid .footer-logo h1 {
+    font-size: 4rem;
+  }
+
+  .footer-grid .footer-logo {
+    border-top: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+  }
+
+  .footer-grid .socials {
+    align-items: center;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .footer-grid .download-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .footer-grid .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-grid .app-store-btn {
+    padding: 1rem;
+    width: auto;
+    font-size: 1.4rem;
+  }
+}

@@ -229,6 +229,10 @@
 }
 
 /* Features section */
+.features-container {
+  width: 70%;
+}
+
 .feature-grid {
   grid-template-columns: 1fr;
 }
@@ -252,7 +256,7 @@
 
 @media screen and (min-width: 992px) {
   .feature-grid {
-    grid-template-columns: 1fr 0.65fr;
+    grid-template-columns: 1fr 0.5fr;
   }
 
   .feature-dropdowns {
@@ -496,6 +500,10 @@
 
 /* FAQ */
 
+.faq-container {
+  width: 80%;
+}
+
 .faq-link-container {
   text-align: center;
   margin: 2rem 0;
@@ -541,6 +549,7 @@
 
 @media screen and (min-width: 992px) {
   .price-cards_container-desktop {
+    width: 100%;
     display: flex;
     flex-direction: row;
     overflow: scroll;

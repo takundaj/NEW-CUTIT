@@ -24,8 +24,12 @@
   padding: 1rem;
 }
 
+.price-card_header p {
+  margin: 0;
+}
+
 .price-card_header p span {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -51,7 +55,7 @@
   margin-bottom: 1rem;
   font-size: 1.3rem;
   margin-left: 3rem;
-  margin-right: 0.2vw;
+  margin-right: 1.5rem;
 }
 
 .price-card_btn {

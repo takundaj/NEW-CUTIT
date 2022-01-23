@@ -33,6 +33,7 @@
   grid-template-rows: 1fr fit-content;
   width: 90%;
   overflow-y: hidden;
+  margin-top: 2vw;
 }
 
 .hero_text {
@@ -44,7 +45,7 @@
 
 .hero_text_title {
   font-family: "lulo clean bold", sans-serif;
-  font-size: 5.5rem;
+  font-size: 6rem;
   line-height: 1.2;
   letter-spacing: -7px;
   word-spacing: 0.6rem;
@@ -65,16 +66,18 @@
 }
 
 .hero_text_subtitle {
-  margin: 3vw 0;
+  margin: 2vw 0;
 }
 
-.hero_text_download {
+.hero_btn {
+  box-shadow: 0 0 0.3rem black;
 }
 
 .hero-buttons-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 1rem;
 }
 
 .hero_text_subscribe {
@@ -96,12 +99,21 @@
   margin: auto;
 }
 
+#job-title {
+  width: fit-content;
+}
+
+.filler {
+  opacity: 0;
+}
+
 @media screen and (min-width: 992px) {
   .hero_container {
     width: 70%;
     grid-template-columns: 65% 35%;
     grid-template-rows: 1fr;
     min-width: 80rem;
+    margin-top: 5vw;
   }
 
   .hero_text_title.mobile {
@@ -125,6 +137,7 @@
 
   .hero-buttons-container button {
     margin-left: 0;
+    margin-right: 1.6rem;
   }
 
   .hero_img {
@@ -146,8 +159,13 @@
 
 /* Quote Section */
 
+#quote {
+  padding: 4vw 0;
+}
+
 .quote-container {
   text-align: center;
+  margin: 0 auto;
 }
 
 .left-quote-mark {
@@ -219,6 +237,7 @@
   .right-quote-mark,
   .left-quote-mark {
     opacity: 1;
+    z-index: 10;
   }
 
   .quote-caption {
@@ -228,7 +247,16 @@
   }
 }
 
+@media screen and (min-width: 992px) {
+  #quote {
+    background: url(/src/images/quote\ background.svg);
+  }
+}
+
 /* Features section */
+#features {
+}
+
 .features-container {
   width: 70%;
 }
@@ -278,6 +306,9 @@
 }
 
 /* Why choose us */
+#why-choose-us {
+  background: url(/src/images/why\ us\ background.svg);
+}
 
 .why-choose-us-container {
   width: 90%;
@@ -499,6 +530,9 @@
 }
 
 /* FAQ */
+#faq {
+  background: url(/src/images/faq\ background.svg);
+}
 
 .faq-container {
   width: 80%;
@@ -544,15 +578,20 @@
 }
 
 .price-cards_container-mobile {
-  border: 1px solid black;
 }
 
 @media screen and (min-width: 992px) {
-  .price-cards_container-desktop {
+  .price-section-container {
     width: 100%;
+  }
+
+  .price-cards_container-desktop {
+    width: 95%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     overflow: scroll;
+    margin: auto;
   }
 
   .price-cards_container-mobile {
@@ -580,23 +619,30 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .about-us_logo {
   width: 20rem;
-  margin: 5vw;
+  margin: 3vw;
   margin-bottom: 0;
 }
 
 /* contact us */
+#contact-us {
+  background-image: url(/src/images/why\ us\ background.svg);
+}
+
 .contact-us_container {
   width: 90%;
   overflow-x: scroll;
 }
 
 .contact-grid {
+  width: 98%;
   margin: auto;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   grid-template-columns: 1fr;
   box-shadow: 0 0 1rem var(--primary);
   padding: 1rem;
   border-radius: 10px;
+  background-color: #fff;
 }
 
 .about-us_contact-details,

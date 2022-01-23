@@ -1,0 +1,26 @@
+.subscribe-floater {
+  color: #fff;
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1.5rem 2.2rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 0 5px var(--primary);
+  display: none;
+}
+
+.subscribe-floater:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe-floater {
+    display: inline-block;
+  }
+}

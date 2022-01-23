@@ -25,7 +25,7 @@
 
 footer {
   background: var(--accent);
-  padding: 1rem 0;
+  padding: 3vw 0;
 }
 
 .footer-grid {
@@ -33,7 +33,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, fit-content);
-  border: 1px solid black;
+  /* border: 1px solid black; */
   grid-row-gap: 2rem;
 }
 

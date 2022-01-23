@@ -1,4 +1,5 @@
 let path = require("path");
+const { node } = require("webpack");
 
 module.exports = {
   mode: "development",

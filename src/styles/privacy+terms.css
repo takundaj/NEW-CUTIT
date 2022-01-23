@@ -1,0 +1,62 @@
+.privacy-terms-navbar {
+  background-color: #fff;
+  width: 100%;
+}
+
+.privacy-terms-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5vw;
+}
+
+/* logo */
+
+.privacy-terms-nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy-terms-nav-logo img {
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.privacy-terms-logo-text {
+  font-family: "lulo clean bold";
+  letter-spacing: -3px;
+  margin-bottom: 0;
+}
+
+/* nav list */
+
+.privacy-terms-nav-logo h1 {
+  font-weight: bold;
+}
+
+.privacy-terms-nav ul li {
+  margin: 0 1rem;
+}
+
+.privacy-terms-nav a {
+}
+
+/* nav button */
+
+.privacy-terms-nav-btn {
+  display: none;
+  border: none;
+  box-shadow: 0 0 2px black;
+}
+
+.privacy-terms-nav ul {
+  display: flex;
+}
+
+.privay-policy__body h3 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}

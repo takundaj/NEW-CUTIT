@@ -6,6 +6,7 @@
   color: #fff;
   width: 100%;
   cursor: pointer;
+  box-shadow: 0 0 0.75rem var(--primary);
 }
 
 .dropdown_trigger {
@@ -24,7 +25,7 @@
 
 .dropdown_content p {
   width: 85%;
-  border-top: 1px solid #fff;
+  border-top: 1px solid black;
   margin: auto;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -41,6 +42,7 @@
   font-size: 3rem;
   margin: 1rem;
   margin-right: 2rem;
+  margin-left: 1.5rem;
   background-color: var(--accent);
 }
 
@@ -65,4 +67,20 @@
   opacity: 1;
   max-height: 100vh;
   transition: all 0.75s;
+}
+
+.dropdown-active {
+  background: #fff;
+}
+
+.dropdown-active p {
+  color: black;
+}
+
+.dropdown-active i {
+  color: var(--accent);
+}
+
+.dropdown-active .dropdown_icon-container {
+  background-color: var(--primary);
 }

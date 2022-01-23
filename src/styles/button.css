@@ -17,8 +17,15 @@
   font-weight: bold;
   cursor: pointer;
   border: none;
-  box-shadow: 0 0 5px black;
   margin: 1rem;
+}
+
+.btn:hover {
+  background-color: #ad8f75;
+}
+
+.btn.btn-white:hover {
+  background-color: rgb(231, 230, 230);
 }
 
 /* how to button */
@@ -38,6 +45,18 @@
 .how-to-btn-icon {
   padding: 2rem;
   color: var(--primary);
+}
+
+.how-to-btn-active {
+  background: var(--primary);
+}
+
+.how-to-btn-active .how-to-btn-text-container {
+  color: #fff;
+}
+
+.how-to-btn-icon-active {
+  color: #fff;
 }
 
 /* app store button */

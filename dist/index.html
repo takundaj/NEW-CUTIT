@@ -4,7 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cut It!</title>
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Cut-It!" />
+    <meta
+      itemprop="description"
+      content="CUT-IT is a next generation hair and beauty booking app integrated with its very own social media platform - providing an inclusive space for people to define their looks, master their craft and gain recognition. We are here to ensure that everyone gets the standard of service they deserve."
+    />
+    <meta
+      itemprop="image"
+      content="https://www.cutitapp.co.uk/images/previewimage.png"
+    />
+    <meta
+      name="keywords"
+      content="Specialist ,Barber, Hairdresser, Tattoo Artist, Nail Tech, Beautician, Loctician, booking, Cut-It app"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.cutitapp.co.uk" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cut-It!" />
+    <meta
+      property="og:description"
+      content="CUT-IT is a next generation hair and beauty booking app integrated with its very own social media platform - providing an inclusive space for people to define their looks, master their craft and gain recognition. We are here to ensure that everyone gets the standard of service they deserve."
+    />
+    <meta
+      property="og:image"
+      content="https://www.cutitapp.co.uk/images/previewimage.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cut-It!" />
+    <meta
+      name="twitter:description"
+      content="CUT-IT is a next generation hair and beauty booking app integrated with its very own social media platform - providing an inclusive space for people to define their looks, master their craft and gain recognition. We are here to ensure that everyone gets the standard of service they deserve."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.cutitapp.co.uk/images/previewimage.png"
+    />
+    <!-- Cookie Consent by https://www.PrivacyPolicies.com -->
+    <script
+      type="text/javascript"
+      src="//www.privacypolicies.com/public/cookie-consent/4.0.0/cookie-consent.js"
+      charset="UTF-8"
+    ></script>
+    <script type="text/javascript" charset="UTF-8">
+      document.addEventListener("DOMContentLoaded", function () {
+        cookieconsent.run({
+          notice_banner_type: "simple",
+          consent_type: "implied",
+          palette: "light",
+          language: "en",
+          page_load_consent_levels: [
+            "strictly-necessary",
+            "functionality",
+            "tracking",
+            "targeting",
+          ],
+          notice_banner_reject_button_hide: false,
+          preferences_center_close_button_hide: false,
+          page_refresh_confirmation_buttons: false,
+          website_name: "Cut It!",
+        });
+      });
+    </script>
+
+    <noscript
+      >Cookie Consent by
+      <a href="https://www.privacypolicies.com/" rel="nofollow noopener"
+        >Privacy Policies website</a
+      ></noscript
+    >
+    <!-- End Cookie Consent -->
+
+    <title class="title">Cut-It! - New</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="/src/images/logo.png" />
     <!-- font awesome -->
     <script
       src="https://kit.fontawesome.com/49dafdb3d2.js"
@@ -27,24 +103,24 @@
           <h2 class="logo-text">CUT-IT</h2>
         </span>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Why chose us?</a></li>
-          <li><a href="#">How to get started</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="/dist/index.html">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#why-choose-us">Why chose us?</a></li>
+          <li><a href="#how-to">How to get started</a></li>
+          <li><a href="#price">Pricing</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
         </ul>
         <button class="btn nav-btn">SUBSCRIBE</button>
         <i class="fas fa-bars nav-trigger"></i>
       </nav>
       <div class="nav-dropdown collapsible">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Why chose us?</a></li>
-          <li><a href="#">How to get started</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="/dist/index.html">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#why-choose-us">Why chose us?</a></li>
+          <li><a href="#how-to">How to get started</a></li>
+          <li><a href="#price">Pricing</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
         </ul>
       </div>
     </header>
@@ -54,27 +130,38 @@
         <div class="hero_text">
           <h1 class="hero_text_title desktop">TIME TO MEET</h1>
           <h1 class="hero_text_title desktop">YOUR NEW</h1>
-          <h1 class="hero_text_title brown desktop">TATOO ARTIST</h1>
+          <h1 class="hero_text_title brown desktop">
+            <span class="job-title">SPECIALIST</span
+            ><span class="filler">.</span>
+          </h1>
           <p class="hero_text_subtitle">
             Find the best barbers, hairdressers, beauticians & more near you.
           </p>
           <span class="hero-buttons-container">
-            <button class="btn hero_text_download">COMING SOON</button>
-            <button class="btn hero_text_subscribe">SUBSCRIBE</button>
+            <button class="btn hero_btn hero_text_download">COMING SOON</button>
+            <button
+              class="btn hero_btn btn-white hero_text_subscribe hero-subscribe"
+            >
+              SUBSCRIBE
+            </button>
           </span>
         </div>
         <div class="hero_img">
           <div class="mobile-main-title">
             <h1 class="hero_text_title mobile">TIME TO MEET</h1>
             <h1 class="hero_text_title mobile">YOUR NEW</h1>
-            <h1 class="hero_text_title brown mobile">TATOO ARTIST</h1>
+            <h1 class="hero_text_title brown mobile">
+              <span class="job-title">SPECIALIST</span
+              ><span class="filler">.</span>
+            </h1>
           </div>
           <img src="/src/images/iphone-mockup-1.png" alt="" />
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- quote -->
-    <section class="quote">
+    <section class="quote" id="quote">
       <div class="container quote-container">
         <div class="section-intro">
           <h2 class="luloclean-bold brown">WHO WE ARE</h2>
@@ -100,8 +187,9 @@
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- features -->
-    <section>
+    <section id="features">
       <div class="container features-container">
         <div class="section-intro">
           <h2 class="luloclean-bold brown heading">Features</h2>
@@ -110,7 +198,7 @@
         <div class="grid col2row1 feature-grid">
           <div class="feature-dropdowns">
             <!-- dropdown (bookings) -->
-            <div class="dropdown">
+            <div class="dropdown booking">
               <div class="dropdown_trigger">
                 <span class="dropdown_icon-container">
                   <i class="fas fa-calendar-alt dropdown_icon"></i>
@@ -128,7 +216,7 @@
               </div>
             </div>
             <!-- dropdown (cashless payments) -->
-            <div class="dropdown">
+            <div class="dropdown cashless">
               <div class="dropdown_trigger">
                 <span class="dropdown_icon-container">
                   <i class="fas fa-calendar-alt dropdown_icon"></i>
@@ -144,7 +232,7 @@
               </div>
             </div>
             <!-- dropdown (connect with specialist) -->
-            <div class="dropdown">
+            <div class="dropdown connect">
               <div class="dropdown_trigger">
                 <span class="dropdown_icon-container">
                   <i class="fas fa-calendar-alt dropdown_icon"></i>
@@ -163,8 +251,8 @@
               </div>
             </div>
 
-            <!-- dropdown (connect with specialist) -->
-            <div class="dropdown">
+            <!-- dropdown (Find the best hair & beauty specialists) -->
+            <div class="dropdown find">
               <div class="dropdown_trigger">
                 <span class="dropdown_icon-container">
                   <i class="fas fa-calendar-alt dropdown_icon"></i>
@@ -182,8 +270,8 @@
               </div>
             </div>
 
-            <!-- dropdown (connect with specialist) -->
-            <div class="dropdown">
+            <!-- dropdown (Grow your business) -->
+            <div class="dropdown grow">
               <div class="dropdown_trigger">
                 <span class="dropdown_icon-container">
                   <i class="fas fa-calendar-alt dropdown_icon"></i>
@@ -207,8 +295,9 @@
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- why choose us -->
-    <section>
+    <section id="why-choose-us">
       <div class="container why-choose-us-container">
         <div class="section-intro">
           <h2 class="luloclean-bold brown heading">WHY CHOOSE US?</h2>
@@ -362,8 +451,9 @@
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- how to get started -->
-    <section>
+    <section id="how-to">
       <div class="container how-to_container">
         <div class="section-intro how-to_intro">
           <h2 class="luloclean-bold brown heading">HOW TO GET STARTED</h2>
@@ -388,7 +478,7 @@
               id="how-to-scrollbar"
             >
               <!-- how to btn 1 -->
-              <div class="how-to-btn">
+              <div class="how-to-btn download">
                 <i class="how-to-btn-icon fas fa-download"></i>
                 <div class="how-to-btn-text-container">
                   <h4>Download</h4>
@@ -396,7 +486,7 @@
                 </div>
               </div>
               <!-- how to btn 2 -->
-              <div class="how-to-btn">
+              <div class="how-to-btn signup">
                 <i class="how-to-btn-icon fas fa-download"></i>
                 <div class="how-to-btn-text-container">
                   <h4>Signup</h4>
@@ -404,7 +494,7 @@
                 </div>
               </div>
               <!-- how to btn 3 -->
-              <div class="how-to-btn">
+              <div class="how-to-btn post">
                 <i class="how-to-btn-icon fas fa-download"></i>
                 <div class="how-to-btn-text-container">
                   <h4>Post</h4>
@@ -416,7 +506,7 @@
                 </div>
               </div>
               <!-- how to btn 4 -->
-              <div class="how-to-btn">
+              <div class="how-to-btn pick">
                 <i class="how-to-btn-icon fas fa-download"></i>
                 <div class="how-to-btn-text-container">
                   <h4>Pick your specialist</h4>
@@ -427,7 +517,7 @@
                 </div>
               </div>
               <!-- how to btn 5 -->
-              <div class="how-to-btn">
+              <div class="how-to-btn become">
                 <i class="how-to-btn-icon fas fa-download"></i>
                 <div class="how-to-btn-text-container">
                   <h4>Become a specialist</h4>
@@ -440,7 +530,7 @@
                 </div>
               </div>
               <!-- how to btn 6 -->
-              <div class="how-to-btn">
+              <div class="how-to-btn book">
                 <i class="how-to-btn-icon fas fa-download"></i>
                 <div class="how-to-btn-text-container">
                   <h4>Book and pay</h4>
@@ -458,36 +548,43 @@
             </p>
             <div class="how-to-grid_app-store-btn_container">
               <!-- app store btn 1 -->
-              <div class="app-store-btn app-store-btn-black">
-                <img
-                  class="app-store-btn_img"
-                  src="/src/images/play.svg"
-                  alt=""
-                />
-                <div class="app-store-btn_text">
-                  <p class="app-store-btn_description">Available on Android.</p>
-                  <p class="app-store-btn_title">Google Play</p>
+              <a href="">
+                <div class="app-store-btn app-store-btn-black">
+                  <img
+                    class="app-store-btn_img"
+                    src="/src/images/play.svg"
+                    alt=""
+                  />
+                  <div class="app-store-btn_text">
+                    <p class="app-store-btn_description">
+                      Available on Android.
+                    </p>
+                    <p class="app-store-btn_title">Google Play</p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <!-- app store btn 2 -->
-              <div class="app-store-btn app-store-btn-ios">
-                <img
-                  class="app-store-btn_img"
-                  src="/src/images/app-store.svg"
-                  alt=""
-                />
-                <div class="app-store-btn_text">
-                  <p class="app-store-btn_description">Available on iOS.</p>
-                  <p class="app-store-btn_title">App Store</p>
+              <a href="">
+                <div class="app-store-btn app-store-btn-ios">
+                  <img
+                    class="app-store-btn_img"
+                    src="/src/images/app-store.svg"
+                    alt=""
+                  />
+                  <div class="app-store-btn_text">
+                    <p class="app-store-btn_description">Available on iOS.</p>
+                    <p class="app-store-btn_title">App Store</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- faqs -->
-    <section class="faq">
+    <section class="faq" id="faq">
       <div class="container faq-container">
         <div class="section-intro how-to_intro">
           <h2 class="luloclean-bold brown heading">
@@ -505,7 +602,7 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>Do clients need a subscription to use the app?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
@@ -520,14 +617,14 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>How do I book a treatment?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  You can use the Specialist search page to find the treatment
+                  you want, from the Specialist you love. Click a specialist,
+                  choose your service, pick a time that suits you and pay using
+                  Apple Pay, Google Pay or a card.
                 </p>
               </div>
             </div>
@@ -535,14 +632,14 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>How do I change or cancel my booking?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  As long as you are not within the specialist’s cancellation
+                  policy, you can reschedule or cancel your appointment, click
+                  the appointments tab in settings and then the reschedule
+                  button.
                 </p>
               </div>
             </div>
@@ -550,14 +647,13 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>How do I know if my booking is confirmed?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  You will receive a confirmation via email or text. In the
+                  appointments page you will be able to view upcoming bookings
+                  also.
                 </p>
               </div>
             </div>
@@ -565,14 +661,12 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>Do you charge for bookings?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  A 5% commission is applied to all bookings to help us continue
+                  investing in CUT-IT.
                 </p>
               </div>
             </div>
@@ -587,14 +681,24 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>How do I become a CUT-IT Specialist?</p>
               </div>
               <div class="faq-content faq-collapsible">
+                <p>Download the app, sign up and complete your profile.</p>
+
+                <ul>
+                  <li>In the settings tab click ‘Become a Specialist’</li>
+                  <li>Select your Speciality</li>
+                  <li>Add your business details</li>
+                  <li>Add your cancellation policy</li>
+                  <li>Add your services</li>
+                  <li>Save and verify your ID</li>
+                </ul>
+
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  The team will review your details. Once approved your app will
+                  switch to the Specialist view and you can utilise the
+                  specialist features.
                 </p>
               </div>
             </div>
@@ -602,14 +706,14 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>Can I upgrade/downgrade my subscription?</p>
               </div>
               <div class="faq-content faq-collapsible">
-                <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                <p class="faq-answer">
+                  At CUT-IT we’re all about flexibility. If you’ve taken a break
+                  from work, you can downgrade to the Free plan and keep all
+                  your reviews, pictures and clients. You can do this at any
+                  time and you’re not tied in for the year.
                 </p>
               </div>
             </div>
@@ -617,14 +721,25 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>How do I find new clients?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  Your profile will be visible to every user in the area using
+                  the CUT-IT search page. Businesses are listed based on user
+                  reviews so clients can discover and book with you easily.
+                </p>
+                <p>
+                  CUT-IT is a powerful social media platform so building up an
+                  audience by posting to your feed is a good way to attract new
+                  customers who can come across your content from the
+                  inspiration feed.
+                </p>
+                <p>
+                  If you are our highest priced Specialist Plan you will have
+                  access to the Bolt function. When a Bolt is used, your profile
+                  will be advertised in various high traffic spots throughout
+                  the app, making your profile more visible to clients.
                 </p>
               </div>
             </div>
@@ -632,14 +747,23 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>Can my clients rate and review me?</p>
               </div>
               <div class="faq-content faq-collapsible">
                 <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                  Of course! Once they've completed an appointment with you,
+                  they will have the ability to leave a rating and review.
+                </p>
+                <p>
+                  People trust people, and for this reason we recommend you
+                  encourage your customers to leave reviews and engage with you
+                  on the platform, tagging you in posts where you provided the
+                  service. Reviews are a powerful referral - let your clients be
+                  your marketing team!
+                </p>
+                <p>
+                  You can also leave a reply to reviews which will also be
+                  visible to users of the app.
                 </p>
               </div>
             </div>
@@ -647,14 +771,15 @@
             <div class="faq-btn">
               <div class="faq-trigger">
                 <i class="fas fa-question-circle"></i>
-                <p>FAQ TITLE</p>
+                <p>How do I use the post feature?</p>
               </div>
               <div class="faq-content faq-collapsible">
-                <p>
-                  Clients can register on the app free of charge. They can find
-                  barbers, hairdressers, nail techs, makeup artists and more
-                  near them with no subscription. A 5% commission is applied on
-                  bookings.
+                <p class="faq-answer">
+                  No more handling multiple social media accounts. Use the
+                  camera button to post a picture or video, either from the app
+                  or your photo gallery. You can tag your client in the post and
+                  if they approve, it will appear in a dedicated section of your
+                  profile page for verified posts.
                 </p>
               </div>
             </div>
@@ -662,12 +787,15 @@
           </div>
         </div>
         <div class="faq-link-container">
-          <a href="#" class="faq-link">Click here to see more</a>
+          <a href="../dist/FAQs/FAQs.html" class="faq-link"
+            >Click here to see more</a
+          >
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- price plans -->
-    <section class="price">
+    <section class="price" id="price">
       <div class="container price-section-container">
         <div class="section-intro how-to_intro">
           <h2 class="luloclean-bold brown heading">Price plans</h2>
@@ -684,36 +812,31 @@
               <div class="price-card">
                 <header class="price-card_header">
                   <p><span>FREE</span>/month</p>
-                  <p>Free plan - No signup fee</p>
+                  <p>Free plan - No Signup fee</p>
                 </header>
                 <div class="price-card_content">
                   <ul class="price-card_list price-card_list_scrollbar">
+                    <li>Powerful booking software + appointment management.</li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Share your craft to a personalised social media feed; gain
+                      followers, likes and shares on your posts.
+                    </li>
+                    <li>Unlimited direct messaging.</li>
+                    <li>Business insights and reporting.</li>
+                    <li>Automated reminders (text, E-mail, notification).</li>
+                    <li>Keep 100% of your tips.</li>
+                    <li>One rate for all payment types.</li>
+                    <li>
+                      Fully managed universal loyalty scheme - users receive
+                      vouchers everytime they book a certain number of services
+                      on CUT-IT.
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Display Health & Safety Rules Using your CUT-IT Profile
+                      Page.
                     </li>
                   </ul>
-                  <button class="btn price-card_btn">Get Started</button>
+                  <button class="btn price-card_btn">GET STARTED</button>
                 </div>
               </div>
             </div>
@@ -722,37 +845,30 @@
               <!-- BASIC PLAN 30/month -->
               <div class="price-card">
                 <header class="price-card_header">
-                  <p><span>FREE</span>/month</p>
-                  <p>Basic plan - No Sign up Fee</p>
+                  <p><span>£30</span>/month</p>
+                  <p>Basic plan - No Signup Fee</p>
                 </header>
                 <div class="price-card_content">
                   <ul class="price-card_list price-card_list_scrollbar">
+                    <li>20% commission.</li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Everything in our
+                      <span class="brown">free package</span> plus.
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Access to Specialist Hub. Your profile and services will
+                      automatically be visible to users in the area (your name
+                      must be searched on the free plan).
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Walk in feature -
+                      <span class="brown">50% commission</span> our intelligent
+                      walk-in feature ensures you never have an empty seat, it
+                      fills your free slots with clients who are looking for a
+                      service right now.
                     </li>
                   </ul>
-                  <button class="btn price-card_btn">Get Started</button>
+                  <button class="btn price-card_btn">GET STARTED</button>
                 </div>
               </div>
             </div>
@@ -761,37 +877,30 @@
               <!-- PREMIUM PLAN 45/month -->
               <div class="price-card">
                 <header class="price-card_header">
-                  <p><span>FREE</span>/month</p>
-                  <p>Premium plan - No Sign up Fee</p>
+                  <p><span>£45</span>/month</p>
+                  <p>Premium plan - No Signup Fee</p>
                 </header>
                 <div class="price-card_content">
                   <ul class="price-card_list price-card_list_scrollbar">
+                    <li>15% commission.</li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Everything in our
+                      <span class="brown">free package</span> plus.
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Access to Specialist Hub. Your profile and services will
+                      automatically be visible to users in the area (your name
+                      must be searched on the free plan).
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Walk in feature -
+                      <span class="brown">35% commission</span> our intelligent
+                      walk-in feature ensures you never have an empty seat, it
+                      fills your free slots with clients who are looking for a
+                      service right now.
                     </li>
                   </ul>
-                  <button class="btn price-card_btn">Get Started</button>
+                  <button class="btn price-card_btn">GET STARTED</button>
                 </div>
               </div>
             </div>
@@ -800,37 +909,36 @@
               <!-- PREMIUM PLAN 45/month -->
               <div class="price-card">
                 <header class="price-card_header">
-                  <p><span>FREE</span>/month</p>
-                  <p>Specialist plan - No Sign up Fee</p>
+                  <p><span>£100</span>/month</p>
+                  <p>Specialist plan - No Signup Fee</p>
                 </header>
                 <div class="price-card_content">
                   <ul class="price-card_list price-card_list_scrollbar">
+                    <li>10% commission.</li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Everything in our
+                      <span class="brown">free package</span> plus.
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Access to Specialist Hub. Your profile and services will
+                      automatically be visible to users in the area (your name
+                      must be searched on the free plan).
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Walk in feature -
+                      <span class="brown">25% commission</span> our intelligent
+                      walk-in feature ensures you never have an empty seat, it
+                      fills your free slots with clients who are looking for a
+                      service right now.
                     </li>
                     <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                      Access to OTM - our One-Tap-Marketing tool. Press the
+                      boost button to make your profile visible in multiple
+                      places around the app. Boost insights provide more
+                      information on how to turbocharge your business.
                     </li>
                   </ul>
-                  <button class="btn price-card_btn">Get Started</button>
+                  <button class="btn price-card_btn">GET STARTED</button>
                 </div>
               </div>
             </div>
@@ -849,114 +957,159 @@
           <div class="price-card">
             <header class="price-card_header">
               <p><span>FREE</span>/month</p>
-              <p>Free plan - No signup fee</p>
+              <p>Free plan - No Signup fee</p>
             </header>
             <div class="price-card_content">
               <ul class="price-card_list price-card_list_scrollbar">
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
+                <li>Powerful booking software + appointment management.</li>
+                <li>
+                  Share your craft to a personalised social media feed; gain
+                  followers, likes and shares on your posts.
+                </li>
+                <li>Unlimited direct messaging.</li>
+                <li>Business insights and reporting.</li>
+                <li>Automated reminders (text, E-mail, notification).</li>
+                <li>Keep 100% of your tips.</li>
+                <li>One rate for all payment types.</li>
+                <li>
+                  Fully managed universal loyalty scheme - users receive
+                  vouchers everytime they book a certain number of services on
+                  CUT-IT.
+                </li>
+                <li>
+                  Display Health & Safety Rules Using your CUT-IT Profile Page.
+                </li>
               </ul>
-              <button class="btn price-card_btn">Get Started</button>
+              <button class="btn price-card_btn">GET STARTED</button>
             </div>
           </div>
           <!-- BASIC PLAN 30/month -->
           <div class="price-card">
             <header class="price-card_header">
-              <p><span>FREE</span>/month</p>
-              <p>Basic plan - No Sign up Fee</p>
+              <p><span>£30</span>/month</p>
+              <p>Basic plan - No Signup Fee</p>
             </header>
             <div class="price-card_content">
               <ul class="price-card_list price-card_list_scrollbar">
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
+                <li>20% commission.</li>
+                <li>
+                  Everything in our
+                  <span class="brown">free package</span> plus.
+                </li>
+                <li>
+                  Access to Specialist Hub. Your profile and services will
+                  automatically be visible to users in the area (your name must
+                  be searched on the free plan).
+                </li>
+                <li>
+                  Walk in feature -
+                  <span class="brown">50% commission</span> our intelligent
+                  walk-in feature ensures you never have an empty seat, it fills
+                  your free slots with clients who are looking for a service
+                  right now.
+                </li>
               </ul>
-              <button class="btn price-card_btn">Get Started</button>
+              <button class="btn price-card_btn">GET STARTED</button>
             </div>
           </div>
           <!-- PREMIUM PLAN 45/month -->
           <div class="price-card">
             <header class="price-card_header">
-              <p><span>FREE</span>/month</p>
-              <p>Premium plan - No Sign up Fee</p>
+              <p><span>£45</span>/month</p>
+              <p>Premium plan - No Signup Fee</p>
             </header>
             <div class="price-card_content">
               <ul class="price-card_list price-card_list_scrollbar">
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
+                <li>15% commission.</li>
+                <li>
+                  Everything in our
+                  <span class="brown">free package</span> plus.
+                </li>
+                <li>
+                  Access to Specialist Hub. Your profile and services will
+                  automatically be visible to users in the area (your name must
+                  be searched on the free plan).
+                </li>
+                <li>
+                  Walk in feature -
+                  <span class="brown">35% commission</span> our intelligent
+                  walk-in feature ensures you never have an empty seat, it fills
+                  your free slots with clients who are looking for a service
+                  right now.
+                </li>
               </ul>
-              <button class="btn price-card_btn">Get Started</button>
+              <button class="btn price-card_btn">GET STARTED</button>
             </div>
           </div>
           <!-- PREMIUM PLAN 45/month -->
           <div class="price-card">
             <header class="price-card_header">
-              <p><span>FREE</span>/month</p>
-              <p>Specialist plan - No Sign up Fee</p>
+              <p><span>£100</span>/month</p>
+              <p>Specialist plan - No Signup Fee</p>
             </header>
             <div class="price-card_content">
               <ul class="price-card_list price-card_list_scrollbar">
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</li>
+                <li>10% commission.</li>
+                <li>
+                  Everything in our
+                  <span class="brown">free package</span> plus.
+                </li>
+                <li>
+                  Access to Specialist Hub. Your profile and services will
+                  automatically be visible to users in the area (your name must
+                  be searched on the free plan).
+                </li>
+                <li>
+                  Walk in feature -
+                  <span class="brown">25% commission</span> our intelligent
+                  walk-in feature ensures you never have an empty seat, it fills
+                  your free slots with clients who are looking for a service
+                  right now.
+                </li>
+                <li>
+                  Access to OTM - our One-Tap-Marketing tool. Press the boost
+                  button to make your profile visible in multiple places around
+                  the app. Boost insights provide more information on how to
+                  turbocharge your business.
+                </li>
               </ul>
-              <button class="btn price-card_btn">Get Started</button>
+              <button class="btn price-card_btn">GET STARTED</button>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- about us -->
-    <section class="about-us">
+    <section class="about-us" id="about-us">
       <div class="container about-us_container">
         <div class="section-intro how-to_intro">
           <h2 class="luloclean-bold brown heading">About us</h2>
         </div>
         <div class="about-us_content">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-            dolor ducimus impedit voluptate aut ad nesciunt soluta nihil
-            repellat fugit magnam enim laborum facere debitis optio obcaecati
-            reiciendis commodi a iusto saepe harum, deleniti ipsum sint est. Ab
-            consequuntur aut tempora dolorum, consequatur quidem veritatis. Illo
-            facere suscipit excepturi dolorum.
+            CUT-IT is a next generation hair and beauty booking app integrated
+            with its very own social media platform - providing an inclusive
+            space for people to define their looks, master their craft and gain
+            recognition. We are here to ensure that everyone gets the standard
+            of service they deserve.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-            dolor ducimus impedit voluptate aut ad nesciunt soluta nihil
-            repellat fugit magnam enim laborum facere debitis optio obcaecati
-            reiciendis commodi a iusto saepe harum, deleniti ipsum sint est. Ab
-            consequuntur aut tempora dolorum, consequatur quidem veritatis. Illo
-            facere suscipit excepturi dolorum.
+            Unlike other booking platforms, that require separate apps for
+            client & specialists; CUT-IT is a unified app. Services provided
+            include nail techs, barbers, makeup artists, braid specialists &
+            anyone else working in the hair and beauty industry that is
+            registered on our app. Users can become a Specialist and create
+            their own business, or turbocharge their current one, in just a few
+            clicks.
           </p>
           <img class="about-us_logo" src="/src/images/logo-large.png" alt="" />
         </div>
       </div>
     </section>
+    <div class="seperator"></div>
     <!-- contat us -->
-    <section class="contact-us">
+    <section class="contact-us" id="contact-us">
       <div class="container contact-us_container">
         <div class="section-intro how-to_intro">
           <h2 class="luloclean-bold brown heading">Contact us</h2>
@@ -978,9 +1131,13 @@
               <div class="socials-details_container">
                 <p>Social media</p>
                 <div class="socials">
-                  <i class="fab fa-instagram"></i>
-                  <i class="fab fa-twitter"></i>
-                  <i class="fab fa-facebook"></i>
+                  <a href="https://www.instagram.com/cutitoffical/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://twitter.com/officialcutit"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
                 </div>
               </div>
             </div>
@@ -1021,46 +1178,187 @@
         </div>
       </div>
     </section>
+    <!-- pop up -->
+    <div class="popup-wrapper">
+      <i class="fas fa-times cross"></i>
+      <div class="popup">
+        <div class="tab-container">
+          <div class="tab">
+            <!-- start -->
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup" class="sub-form poup-subform">
+              <p class="luloclean brown popup-subheading">
+                Subscribe for updates, rewards & more
+              </p>
+              <form
+                action="https://gmail.us5.list-manage.com/subscribe/post?u=0163eae06e656a613479540f8&amp;id=16e69f10b4"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+                novalidate
+              >
+                <div id="mc_embed_signup_scroll">
+                  <!-- <p class="luloclean brown">Subscribe for updates, rewards & more</p> -->
+                  <div class="mc-field-group group">
+                    <label for="mce-NAME">Name:</label>
+                    <input
+                      type="text"
+                      value=""
+                      name="NAME"
+                      class="required name"
+                      id="mce-NAME"
+                      placeholder="Enter name here"
+                    />
+                  </div>
+                  <div class="mc-field-group group">
+                    <label for="mce-EMAIL">Email Address:</label>
+                    <input
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      class="required email"
+                      id="mce-EMAIL"
+                      placeholder="Enter email here"
+                    />
+                  </div>
+                  <div class="mc-field-group group">
+                    <label for="mce-group[34578]">User type:</label>
+                    <select
+                      name="group[34578]"
+                      class="REQ_CSS"
+                      id="mce-group[34578]"
+                    >
+                      <option value=""></option>
+                      <option value="1">User</option>
+                      <option value="2">Specialist</option>
+                    </select>
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div
+                      class="response"
+                      id="mce-error-response"
+                      style="display: none"
+                    ></div>
+                    <div
+                      class="response"
+                      id="mce-success-response"
+                      style="display: none"
+                    ></div>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div
+                    style="position: absolute; left: -5000px"
+                    aria-hidden="true"
+                  >
+                    <input
+                      type="text"
+                      name="b_0163eae06e656a613479540f8_16e69f10b4"
+                      tabindex="-1"
+                      value=""
+                    />
+                  </div>
+                  <div class="clear">
+                    <input
+                      class="btn popup-submit"
+                      type="submit"
+                      value="Subscribe"
+                      name="subscribe"
+                      id="mc-embedded-subscribe"
+                      class="bottom-sub-button popup-submit"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <script
+              type="text/javascript"
+              src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+            ></script>
+            <script type="text/javascript">
+              (function ($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[1] = "NAME";
+                ftypes[1] = "text";
+                fnames[0] = "EMAIL";
+                ftypes[0] = "email";
+              })(jQuery);
+              var $mcj = jQuery.noConflict(true);
+            </script>
+            <!--End mc_embed_signup end -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popupend -->
+
+    <!-- Subscribe float -->
+    <div class="subscribe-floater">
+      <i class="fas fa-envelope-open-text"></i>
+    </div>
+
     <!-- footer -->
     <footer>
       <div class="footer-grid">
         <div class="links">
           <ul>
-            <li><a href="">Privacy policy</a></li>
-            <li><a href="">Terms and conditions</a></li>
-            <li><a href="">Back to top</a></li>
+            <li>
+              <a href="../dist/Privacy-Policy/privacy-policy.html"
+                >Privacy policy</a
+              >
+            </li>
+            <li>
+              <a href="../dist/T&Cs/terms+conditions.html"
+                >Terms and conditions</a
+              >
+            </li>
+            <li><a href="#top">Back to top</a></li>
           </ul>
         </div>
         <div class="download-buttons">
           <!-- btn 1 -->
-          <div class="app-store-btn app-store-btn-black">
-            <img class="app-store-btn_img" src="/src/images/play.svg" alt="" />
-            <div class="app-store-btn_text">
-              <p class="app-store-btn_description">Available on Android.</p>
-              <p class="app-store-btn_title">Google Play</p>
+          <a href="">
+            <div class="app-store-btn app-store-btn-black">
+              <img
+                class="app-store-btn_img"
+                src="/src/images/play.svg"
+                alt=""
+              />
+              <div class="app-store-btn_text">
+                <p class="app-store-btn_description">Available on Android.</p>
+                <p class="app-store-btn_title">Google Play</p>
+              </div>
             </div>
-          </div>
+          </a>
           <!-- app store btn 2 -->
-          <div class="app-store-btn app-store-btn-ios">
-            <img
-              class="app-store-btn_img"
-              src="/src/images/app-store.svg"
-              alt=""
-            />
-            <div class="app-store-btn_text">
-              <p class="app-store-btn_description">Available on iOS.</p>
-              <p class="app-store-btn_title">App Store</p>
+          <a href="">
+            <div class="app-store-btn app-store-btn-ios">
+              <img
+                class="app-store-btn_img"
+                src="/src/images/app-store.svg"
+                alt=""
+              />
+              <div class="app-store-btn_text">
+                <p class="app-store-btn_description">Available on iOS.</p>
+                <p class="app-store-btn_title">App Store</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <div class="footer-logo">
           <img src="/src/images/toplogo.png" alt="" />
           <h1>CUT-IT</h1>
         </div>
         <div class="socials">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook"></i>
+          <a href="https://www.instagram.com/cutitoffical/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/officialcutit"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href=""><i class="fab fa-facebook"></i></a>
         </div>
         <div class="credits">
           <p>

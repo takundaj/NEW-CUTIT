@@ -1,6 +1,6 @@
 class FaqBtn {
   constructor(element) {
-    this.element = element.querySelector(".faq-btn");
+    this.element = element;
     this.trigger = element.querySelector(".faq-trigger");
     this.content = element.querySelector(".faq-content");
   }

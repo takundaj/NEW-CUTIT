@@ -1,5 +1,3 @@
-import html from "./file.html";
-
 import "./styles/general.css";
 import "./styles/navbar.css";
 import "./styles/button.css";

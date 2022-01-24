@@ -18,16 +18,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import navbar from "./navbar";
-import Dropdown from "./dropdown";
-import FaqBtn from "./faq";
-import "./popup.js";
+import navbar from "./modules/navbar";
+import Dropdown from "./modules/dropdown";
+import FaqBtn from "./modules/faq";
+import "./modules/popup";
 // importing scroll.js library
 import Scrollbar from "../node_modules/smooth-scrollbar";
 // core version + navigation, pagination modules:
 import Swiper, { Navigation, Pagination } from "../node_modules/swiper";
 //title animtion
-import "./title-animation";
+import "./modules/title-animation";
 
 // initialise nav bar
 const navBar = new navbar(document.querySelector(".navbar"));

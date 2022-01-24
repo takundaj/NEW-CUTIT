@@ -1,7 +1,7 @@
 let path = require("path");
 
 module.exports = {
-  mode: "development",
+  // mode: "development",
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist/assets"),
@@ -25,5 +25,5 @@ module.exports = {
       },
     ],
   },
-  watch: true,
+  // watch: true,
 };

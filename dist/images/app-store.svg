@@ -1,0 +1,13 @@
+<svg id="app-store" xmlns="http://www.w3.org/2000/svg" width="31.319" height="31.319" viewBox="0 0 31.319 31.319">
+  <path id="Path_40" data-name="Path 40" d="M24.9,31.319H6.423A6.43,6.43,0,0,1,0,24.9V6.423A6.43,6.43,0,0,1,6.423,0H24.9a6.43,6.43,0,0,1,6.423,6.423V24.9A6.43,6.43,0,0,1,24.9,31.319Z" transform="translate(0 0)" fill="#00c3ff"/>
+  <path id="Path_41" data-name="Path 41" d="M265.237,0H256V31.319h9.237a6.43,6.43,0,0,0,6.423-6.423V6.423A6.43,6.43,0,0,0,265.237,0Z" transform="translate(-240.341 0)" fill="#00aaf0"/>
+  <g id="Group_39" data-name="Group 39" transform="translate(5.23 6.423)">
+    <path id="Path_42" data-name="Path 42" d="M113.856,363.05a1.53,1.53,0,0,1-2.089.56h0a1.531,1.531,0,0,1-.56-2.089l.3-.521h3.532Z" transform="translate(-109.443 -345.341)" fill="#fff"/>
+    <path id="Path_43" data-name="Path 43" d="M87.029,119.443a1.529,1.529,0,1,1,0-3.058h3.008l4.126-7.147L93.045,107.3a1.531,1.531,0,0,1,.56-2.089h0a1.531,1.531,0,0,1,2.089.56l.235.408.235-.408a1.529,1.529,0,1,1,2.649,1.529l-5.244,9.084h3.308l1.766,3.058Z" transform="translate(-85.5 -105.007)" fill="#fff"/>
+  </g>
+  <g id="Group_40" data-name="Group 40" transform="translate(15.659 6.423)">
+    <path id="Path_44" data-name="Path 44" d="M275.74,203.147H274.5l1.007,1.744a1.529,1.529,0,1,1-2.649,1.529l-5.31-9.2,1.766-3.059,3.42,5.923h3.008a1.529,1.529,0,0,1,0,3.058Z" transform="translate(-266.84 -188.711)" fill="#f2f2f2"/>
+    <path id="Path_45" data-name="Path 45" d="M256,291v3.058h2.714L256.948,291Z" transform="translate(-256 -279.623)" fill="#f2f2f2"/>
+    <path id="Path_46" data-name="Path 46" d="M259.037,106.14a1.529,1.529,0,0,0-2.8-.369l-.235.408h0V112.3l2.884-5A1.519,1.519,0,0,0,259.037,106.14Z" transform="translate(-256 -105.006)" fill="#f2f2f2"/>
+  </g>
+</svg>

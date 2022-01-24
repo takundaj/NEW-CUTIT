@@ -4,21 +4,11 @@ let HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist/assets"),
+    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env"],
-          },
-        },
-      },
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
@@ -36,13 +26,16 @@ module.exports = {
             options: {
               name: "[name].[ext]",
               outputPath: "images/",
-              publicPath: "images/",
             },
           },
         ],
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "src/index.html",
+    }),
+  ],
   // watch: true,
 };

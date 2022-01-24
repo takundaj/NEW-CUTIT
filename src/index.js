@@ -13,6 +13,8 @@ import "./styles/privacy+terms.css";
 import "./styles/subscribe-floater.css";
 import "./styles/cookie-consent.css";
 
+import Mockup from "./images/iphone-mockup-1.png";
+
 // import Swiper and modules styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -229,3 +231,7 @@ window.addEventListener("resize", (e) => {
     subFloater.style.display = "inline-block";
   }
 });
+
+const mockUpImage = new Image(Mockup);
+const heroImage = document.querySelector("#hero-image");
+heroImage.setAttribute("src", mockUpImage);

@@ -19,12 +19,12 @@ module.exports = {
         },
       },
       {
-        test: /\.html$/i,
-        loader: "html-loader",
-      },
-      {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/,
+        use: ["html-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -35,10 +35,17 @@ module.exports = {
             options: {
               name: "[name].[ext]",
               outputPath: "images/",
+              publicPath: "images/",
             },
           },
         ],
       },
+    ],
+    plugins: [
+      extractPlugin,
+      new HtmlWebpackPlugin({
+        template: "src/index.html",
+      }),
     ],
   },
   // watch: true,

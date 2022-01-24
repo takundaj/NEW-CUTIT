@@ -50,8 +50,8 @@
 }
 
 .price-card_list li {
-  list-style: url(/dist/images/price-list-tick.svg);
-  list-style-image: url(/dist/images/price-list-tick.svg);
+  list-style: url(/src/images/price-list-tick.svg);
+  list-style-image: url(../src/images/price-list-tick.svg);
   margin-bottom: 1rem;
   font-size: 1.3rem;
   margin-left: 3rem;

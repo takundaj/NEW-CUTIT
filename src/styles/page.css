@@ -97,6 +97,7 @@
   width: 40vw;
   max-width: 28rem;
   margin: auto;
+  background-image: url("/src/images/iphone-mockup-1.png");
 }
 
 #job-title {

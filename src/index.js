@@ -1,3 +1,5 @@
+import html from "./file.html";
+
 import "./styles/general.css";
 import "./styles/navbar.css";
 import "./styles/button.css";
@@ -12,8 +14,6 @@ import "./styles/popup.css";
 import "./styles/privacy+terms.css";
 import "./styles/subscribe-floater.css";
 import "./styles/cookie-consent.css";
-
-import "/Users/t.j/Desktop/Code Projects/NEW CUT IT/src/images/iphone-mockup-1.png";
 
 // import Swiper and modules styles
 import "swiper/css";

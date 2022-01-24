@@ -14,6 +14,7 @@ import "./styles/subscribe-floater.css";
 import "./styles/cookie-consent.css";
 
 // import Swiper and modules styles
+import "./images";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";

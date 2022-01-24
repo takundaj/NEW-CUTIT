@@ -249,7 +249,7 @@
 
 @media screen and (min-width: 992px) {
   #quote {
-    background: url(/src/images/quote\ background.svg);
+    background: url(/dist/assets/images/quote\ background.svg);
   }
 }
 
@@ -307,7 +307,7 @@
 
 /* Why choose us */
 #why-choose-us {
-  background: url(/src/images/why\ us\ background.svg);
+  background: url(/dist/assets/images/why\ us\ background.svg);
 }
 
 .why-choose-us-container {
@@ -531,7 +531,7 @@
 
 /* FAQ */
 #faq {
-  background: url(/src/images/faq\ background.svg);
+  background: url(/dist/assets/images/faq\ background.svg);
 }
 
 .faq-container {
@@ -625,7 +625,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 /* contact us */
 #contact-us {
-  background-image: url(/src/images/why\ us\ background.svg);
+  background-image: url(/dist/assets/images/why\ us\ background.svg);
 }
 
 .contact-us_container {

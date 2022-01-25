@@ -4,29 +4,29 @@ let HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist/assets/"),
     filename: "bundle.js",
   },
   module: {
     rules: [
       {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset",
+        use: {
+          loader: "url-loader",
+          options: {
+            name: "[name].[ext]",
+            outputPath: "assets/images",
+          },
+        },
+      },
+      {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.html$/,
+        test: /\.html$/i,
         use: ["html-loader"],
-      },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: "asset",
-        use: {
-          loader: "file-loader",
-          options: {
-            name: "[name].[ext]",
-            outputPath: "images",
-          },
-        },
       },
     ],
   },

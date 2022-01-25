@@ -44,7 +44,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "faq.html",
-      template: "src/index.html",
+      template: "src/faq.html",
     }),
   ],
 };

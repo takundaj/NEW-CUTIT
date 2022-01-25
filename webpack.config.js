@@ -32,7 +32,20 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: "index.html",
       template: "src/index.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "terms+conditions.html",
+      template: "src/terms+conditions/terms+conditions.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "privacy-policy.html",
+      template: "src/privacy-policy/privacy-policy.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "faq.html",
+      template: "src/FAQs/index.html",
     }),
   ],
 };

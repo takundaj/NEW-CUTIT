@@ -177,13 +177,13 @@ howToBtns.forEach((btn) => {
     if (btn.classList.contains("download") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", "/src/images/howto-image-1@2x.png");
     } else if (btn.classList.contains("download") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "/src/images/nonumber1.png");
+      howToImageMobile.setAttribute("src", "./nonumber1.png");
     }
 
     if (btn.classList.contains("signup") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", "/src/images/howto-image-2@2x.png");
     } else if (btn.classList.contains("signup") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "/src/images/nonumber2.png");
+      howToImageMobile.setAttribute("src", "./nonumber2.png");
     }
 
     if (btn.classList.contains("post") && window.innerWidth > 992) {

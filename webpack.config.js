@@ -36,15 +36,15 @@ module.exports = {
       template: "src/index.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "terms+conditions.html",
+      filename: "terms+conditions/terms+conditions.html",
       template: "src/terms+conditions/terms+conditions.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "privacy-policy.html",
+      filename: "privacy-policy/privacy-policy.html",
       template: "src/privacy-policy/privacy-policy.html",
     }),
     new HtmlWebpackPlugin({
-      filename: "faq.html",
+      filename: "faq/faq.html",
       template: "src/FAQs/index.html",
     }),
   ],

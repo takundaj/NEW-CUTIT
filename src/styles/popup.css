@@ -20,8 +20,15 @@
 }
 
 .popup {
-  width: 35vw;
+  width: 95%;
   margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .popup {
+    width: 35vw;
+    margin: auto;
+  }
 }
 
 .poup-subform {
@@ -30,6 +37,12 @@
   background-color: #fff;
   padding: 2rem 4rem;
   border: 0.75rem solid var(--primary);
+}
+
+@media screen and (min-width: 768px) {
+  .poup-subform {
+    padding: 1rem;
+  }
 }
 
 .popup-subheading {

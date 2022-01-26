@@ -24,14 +24,47 @@
     <link rel="stylesheet" href="/src/styles/footer.css">
     <link rel="stylesheet" href="/src/styles/button.css">
     <link rel="stylesheet" href="/src/styles/faq.css">
+    <style>
+      body {
+        position: relative;
+      }
 
+      .load-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .load-screen i {
+        color: burlywood;
+        font-size: 10rem;
+        animation: infinite-spinning 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes infinite-spinning {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- nav bar -->
     <header class="privacy-terms-navbar">
       <nav class="privacy-terms-nav">
         <span class="privacy-terms-nav-logo">
-          <a class="logo-link" href="/dist/index.html">
+          <a class="logo-link" href="./index.html">
             <img src="/src/images/toplogo.png" alt="" />
             <h2 class="privacy-terms-logo-text">CUT-IT</h2>
           </a>
@@ -539,7 +572,19 @@
           </p>
         </div>
       </div>
+
+          <!-- loader -->
+    <div class="load-screen">
+      <i class="fas fa-spinner"></i>
+    </div>
+      
     </footer>
+    <script>
+      const loaderScreen = document.querySelector(".load-screen");
+      window.addEventListener("load", () => {
+        loaderScreen.style.display = "none";
+      });
+    </script>
     <script>
 class FaqBtn {
   constructor(element) {

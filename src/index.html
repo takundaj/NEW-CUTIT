@@ -78,6 +78,12 @@
         }
       }
     </style>
+    <script>
+      const loaderScreen = document.querySelector(".load-screen");
+      window.addEventListener("load", () => {
+        loaderScreen.style.display = "none";
+      });
+    </script>
     <!-- Cookie Consent by https://www.PrivacyPolicies.com -->
     <script
       type="text/javascript"
@@ -1380,12 +1386,6 @@
         </div>
       </div>
     </footer>
-    <script>
-      const loaderScreen = document.querySelector(".load-screen");
-      window.addEventListener("load", () => {
-        loaderScreen.style.display = "none";
-      });
-    </script>
     <script src="/dist/assets/bundle.js"></script>
     <script
       type="text/javascript"

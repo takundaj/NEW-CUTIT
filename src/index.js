@@ -160,6 +160,10 @@ Swiper.use([Navigation, Pagination]);
 
 // init Swiper:
 const swiper = new Swiper(".swiper", {
+  // Default parameters
+  slidesPerView: 1,
+  spaceBetween: 30,
+
   // Optional parameters
   direction: "horizontal",
   loop: true,

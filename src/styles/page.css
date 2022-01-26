@@ -258,7 +258,7 @@
 }
 
 .features-container {
-  width: 70%;
+  width: 90%;
 }
 
 .feature-grid {
@@ -280,6 +280,12 @@
 .feature-img img {
   width: 28rem;
   margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .features-container {
+    width: 70%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -535,7 +541,7 @@
 }
 
 .faq-container {
-  width: 80%;
+  width: 90%;
 }
 
 .faq-link-container {
@@ -560,6 +566,10 @@
 }
 
 @media screen and (min-width: 992px) {
+  .faq-container {
+    width: 80%;
+  }
+
   .faq-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -568,7 +578,7 @@
 /* PRICE SECTION */
 
 .price-section-container {
-  width: 90%;
+  width: 80%;
 }
 
 .price-cards_container-desktop {
@@ -596,15 +606,29 @@
 
   .price-cards_container-mobile {
     display: none;
+    width: 95%;
   }
 }
 /* price: swiper prev */
 .swiper-button-prev::after {
-  color: var(--primary);
+  opacity: 0;
 }
 /* price: swiper next */
 .swiper-button-next::after {
-  color: var(--primary);
+  opacity: 0;
+}
+
+@media screen and (min-width: 500px) {
+  /* price: swiper prev */
+  .swiper-button-prev::after {
+    opacity: 1;
+    color: var(--primary);
+  }
+  /* price: swiper next */
+  .swiper-button-next::after {
+    opacity: 1;
+    color: var(--primary);
+  }
 }
 
 /* price: swiper pagenation */

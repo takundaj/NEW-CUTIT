@@ -12,9 +12,9 @@
   border-radius: 10px;
   overflow: hidden;
   width: 30rem;
-  min-width: 30rem;
+  min-width: 27rem;
   height: 50rem;
-  margin: 1rem;
+  margin: 3rem;
 }
 
 .price-card_header {

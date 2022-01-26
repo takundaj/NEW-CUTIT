@@ -1,3 +1,9 @@
+.about-us_contact-form {
+  /* width: 80%; */
+  margin: auto;
+  padding: 0.5rem;
+}
+
 .about-us_contact-form fieldset {
   display: flex;
   flex-direction: column;

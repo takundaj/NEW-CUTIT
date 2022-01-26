@@ -610,7 +610,7 @@ faqs.forEach((faq) => {
   console.log(faq);
   const instance = new FaqBtn(faq);
 
-  instance.trigger.addEventListener("click", (e) => {
+  instance.addEventListener("click", (e) => {
     if (!instance.content.classList.contains("faq-collapsed")) {
       instance.drop();
     } else if (instance.content.classList.contains("faq-collapsed")) {

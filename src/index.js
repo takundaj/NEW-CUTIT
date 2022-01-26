@@ -255,3 +255,43 @@ window.addEventListener("resize", (e) => {
     subFloater.style.display = "inline-block";
   }
 });
+
+// contact form
+// Send us a message functionality
+const contactForm = document.querySelector(".about-us_contact-form");
+const contactFormRepsonse = document.querySelector(".contact-form-response");
+
+contactForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  // https://github.com/github/fetch
+  fetch("https://formsubmit.co/ajax/support@cutitapp.co.uk", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify({
+      name: contactForm.name.value.trim(),
+      email: contactForm.email.value.trim(),
+      message: contactForm.message.value.trim(),
+    }),
+  })
+    .then((response) => {
+      response.json();
+      if (response.ok) {
+        contactFormRepsonse.style.display = "block";
+        contactFormRepsonse.style.color = "green";
+        contactFormRepsonse.textContent =
+          "Thank you, your message has been sent!";
+      } else {
+        contactFormRepsonse.style.display = "block";
+        contactFormRepsonse.style.color = "red";
+        contactFormRepsonse.textContent =
+          "Sorry, there was a problem. please use our email to the left.";
+      }
+    })
+
+    .then((data) => console.log(data))
+
+    .catch((error) => console.log(error));
+});

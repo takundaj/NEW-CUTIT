@@ -100,3 +100,7 @@ select {
 #mce-success-response {
   font-size: 1.4rem;
 }
+
+#mc_embed_signup div.mce_inline_error {
+  margin: 0;
+}

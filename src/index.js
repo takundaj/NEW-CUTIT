@@ -29,6 +29,14 @@ import Swiper, { Navigation, Pagination } from "../node_modules/swiper";
 //title animtion
 import "./modules/title-animation";
 
+// image imports
+import howToImageOne from "./images/howto-image-1@2x.png";
+import howToImageTwo from "./images/howto-image-2@2x.png";
+import howToImageThree from "./images/howto-image-3@2x.png";
+import howToImageFour from "./images/howto-image-4@2x.png";
+import howToImageFive from "./images/howto-image-5@2x.png";
+import howToImageSix from "./images/howto-image-6@2x.png";
+
 // initialise nav bar
 const navBar = new navbar(document.querySelector(".navbar"));
 
@@ -163,6 +171,9 @@ const howToBtns = document.querySelectorAll(".how-to-btn");
 const howToImageDesktop = document.querySelector(".how-to-desktop-img");
 const howToImageMobile = document.querySelector(".how-to-mobile-img");
 
+// how to images
+const howToImage1 = new Image();
+
 howToBtns.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     howToBtns.forEach((button) => {
@@ -175,37 +186,37 @@ howToBtns.forEach((btn) => {
     icon.classList.add("how-to-btn-icon-active");
 
     if (btn.classList.contains("download") && window.innerWidth > 992) {
-      howToImageDesktop.setAttribute("src", "/src/images/howto-image-1@2x.png");
+      howToImageDesktop.setAttribute("src", howToImageOne);
     } else if (btn.classList.contains("download") && window.innerWidth < 992) {
       howToImageMobile.setAttribute("src", "./nonumber1.png");
     }
 
     if (btn.classList.contains("signup") && window.innerWidth > 992) {
-      howToImageDesktop.setAttribute("src", "/src/images/howto-image-2@2x.png");
+      howToImageDesktop.setAttribute("src", howToImageTwo);
     } else if (btn.classList.contains("signup") && window.innerWidth < 992) {
       howToImageMobile.setAttribute("src", "./nonumber2.png");
     }
 
     if (btn.classList.contains("post") && window.innerWidth > 992) {
-      howToImageDesktop.setAttribute("src", "/src/images/howto-image-3@2x.png");
+      howToImageDesktop.setAttribute("src", howToImageThree);
     } else if (btn.classList.contains("post") && window.innerWidth < 992) {
       howToImageMobile.setAttribute("src", "/src/images/nonumber3.png");
     }
 
     if (btn.classList.contains("pick") && window.innerWidth > 992) {
-      howToImageDesktop.setAttribute("src", "/src/images/howto-image-4@2x.png");
+      howToImageDesktop.setAttribute("src", howToImageFour);
     } else if (btn.classList.contains("pick") && window.innerWidth < 992) {
       howToImageMobile.setAttribute("src", "/src/images/nonumber4.png");
     }
 
     if (btn.classList.contains("become") && window.innerWidth > 992) {
-      howToImageDesktop.setAttribute("src", "/src/images/howto-image-5@2x.png");
+      howToImageDesktop.setAttribute("src", howToImageFive);
     } else if (btn.classList.contains("become") && window.innerWidth < 992) {
       howToImageMobile.setAttribute("src", "/src/images/nonumber5.png");
     }
 
     if (btn.classList.contains("book") && window.innerWidth > 992) {
-      howToImageDesktop.setAttribute("src", "/src/images/howto-image-6@2x.png");
+      howToImageDesktop.setAttribute("src", howToImageSix);
     } else if (btn.classList.contains("become") && window.innerWidth < 992) {
       howToImageMobile.setAttribute("src", "/src/images/nonumber6.png");
     }

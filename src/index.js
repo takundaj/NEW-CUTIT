@@ -29,13 +29,28 @@ import Swiper, { Navigation, Pagination } from "../node_modules/swiper";
 //title animtion
 import "./modules/title-animation";
 
-// image imports
+// image imports (how to)
+import featureImageBooking from "./images/feature-booking.png";
+import featureImageCashless from "./images/feature-cashless.png";
+import featureImageConnect from "./images/feature-connect.png";
+import featureImageFind from "./images/feature-find.png";
+import featureImageGrow from "./images/feature-grow.png";
+
+// image imports (how to - Desktop)
 import howToImageOne from "./images/howto-image-1@2x.png";
 import howToImageTwo from "./images/howto-image-2@2x.png";
 import howToImageThree from "./images/howto-image-3@2x.png";
 import howToImageFour from "./images/howto-image-4@2x.png";
 import howToImageFive from "./images/howto-image-5@2x.png";
 import howToImageSix from "./images/howto-image-6@2x.png";
+
+// image imports (how to - Desktop)
+import howToImageMobileOne from "./images/nonumber1.png";
+import howToImageMobileTwo from "./images/nonumber2.png";
+import howToImageMobileThree from "./images/nonumber3.png";
+import howToImageMobileFour from "./images/nonumber4.png";
+import howToImageMobileFive from "./images/nonumber5.png";
+import howToImageMobileSix from "./images/nonumber6.png";
 
 // initialise nav bar
 const navBar = new navbar(document.querySelector(".navbar"));
@@ -84,23 +99,23 @@ dropdowns.forEach((dropdown) => {
 
       //image change
       if (dropdown.classList.contains("booking")) {
-        featureImage.setAttribute("src", "/src/images/feature-booking.png");
+        featureImage.setAttribute("src", featureImageBooking);
       }
 
       if (dropdown.classList.contains("cashless")) {
-        featureImage.setAttribute("src", "/src/images/feature-cashless.png");
+        featureImage.setAttribute("src", featureImageCashless);
       }
 
       if (dropdown.classList.contains("connect")) {
-        featureImage.setAttribute("src", "/src/images/feature-connect.png");
+        featureImage.setAttribute("src", featureImageConnect);
       }
 
       if (dropdown.classList.contains("find")) {
-        featureImage.setAttribute("src", "/src/images/feature-find.png");
+        featureImage.setAttribute("src", featureImageFind);
       }
 
       if (dropdown.classList.contains("grow")) {
-        featureImage.setAttribute("src", "/src/images/feature-grow.png");
+        featureImage.setAttribute("src", featureImageGrow);
       }
     } else if (!instance.content.classList.contains("hide")) {
       dropdown.classList.remove("dropdown-active");
@@ -188,37 +203,37 @@ howToBtns.forEach((btn) => {
     if (btn.classList.contains("download") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", howToImageOne);
     } else if (btn.classList.contains("download") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "./nonumber1.png");
+      howToImageMobile.setAttribute("src", howToImageMobileOne);
     }
 
     if (btn.classList.contains("signup") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", howToImageTwo);
     } else if (btn.classList.contains("signup") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "./nonumber2.png");
+      howToImageMobile.setAttribute("src", howToImageMobileTwo);
     }
 
     if (btn.classList.contains("post") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", howToImageThree);
     } else if (btn.classList.contains("post") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "/src/images/nonumber3.png");
+      howToImageMobile.setAttribute("src", howToImageMobileThree);
     }
 
     if (btn.classList.contains("pick") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", howToImageFour);
     } else if (btn.classList.contains("pick") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "/src/images/nonumber4.png");
+      howToImageMobile.setAttribute("src", howToImageMobileFour);
     }
 
     if (btn.classList.contains("become") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", howToImageFive);
     } else if (btn.classList.contains("become") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "/src/images/nonumber5.png");
+      howToImageMobile.setAttribute("src", howToImageMobileFive);
     }
 
     if (btn.classList.contains("book") && window.innerWidth > 992) {
       howToImageDesktop.setAttribute("src", howToImageSix);
     } else if (btn.classList.contains("become") && window.innerWidth < 992) {
-      howToImageMobile.setAttribute("src", "/src/images/nonumber6.png");
+      howToImageMobile.setAttribute("src", howToImageMobileSix);
     }
   });
 });

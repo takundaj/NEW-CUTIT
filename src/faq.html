@@ -589,7 +589,7 @@
     <script>
 class FaqBtn {
   constructor(element) {
-    this.element = element.querySelector(".faq-btn");
+    this.element = element;
     this.trigger = element.querySelector(".faq-trigger");
     this.content = element.querySelector(".faq-content");
   }
@@ -611,7 +611,7 @@ faqs.forEach((faq) => {
   console.log(faq);
   const instance = new FaqBtn(faq);
 
-  instance.addEventListener("click", (e) => {
+  instance.element.addEventListener("click", (e) => {
     if (!instance.content.classList.contains("faq-collapsed")) {
       instance.drop();
     } else if (instance.content.classList.contains("faq-collapsed")) {

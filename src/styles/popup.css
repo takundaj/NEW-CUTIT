@@ -96,3 +96,7 @@ select {
 .mc-field-group.group {
   margin: 2rem 0;
 }
+
+#mce-success-response {
+  font-size: 1.4rem;
+}

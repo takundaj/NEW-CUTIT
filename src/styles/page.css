@@ -125,6 +125,7 @@
 
   .hero_text_title.desktop {
     display: block;
+    margin: 0;
   }
 
   .hero_text {

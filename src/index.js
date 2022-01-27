@@ -14,6 +14,7 @@ import "./styles/subscribe-floater.css";
 import "./styles/cookie-consent.css";
 
 // import Swiper and modules styles
+import "normalize.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -28,7 +29,6 @@ import Scrollbar from "../node_modules/smooth-scrollbar";
 import Swiper, { Navigation, Pagination } from "../node_modules/swiper";
 //title animtion
 import "./modules/title-animation";
-import "normalize.css";
 
 // image imports (how to)
 import featureImageBooking from "./images/feature-booking.png";

@@ -765,6 +765,15 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     grid-row: 1/2;
     grid-column: 1/2;
   }
+
+  #contact-us
+    > div
+    > div.grid.col2row1.contact-grid
+    > div.contact-form_container
+    > form
+    .btn {
+    margin-left: 1rem;
+  }
 }
 
 /* FOOTER */

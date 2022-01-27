@@ -28,6 +28,7 @@ import Scrollbar from "../node_modules/smooth-scrollbar";
 import Swiper, { Navigation, Pagination } from "../node_modules/swiper";
 //title animtion
 import "./modules/title-animation";
+import "normalize.css";
 
 // image imports (how to)
 import featureImageBooking from "./images/feature-booking.png";

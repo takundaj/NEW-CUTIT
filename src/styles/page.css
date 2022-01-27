@@ -33,7 +33,7 @@
   grid-template-rows: 1fr fit-content;
   width: 90%;
   overflow-y: hidden;
-  margin-top: 2vw;
+  margin-top: 4vw;
 }
 
 .hero_text {
@@ -58,7 +58,7 @@
 .hero_text_title.mobile {
   font-size: 3rem;
   text-align: center;
-  margin: auto;
+  margin: 0.25rem auto;
 }
 
 .hero_img .mobile-main-title {
@@ -71,6 +71,7 @@
 
 .hero_btn {
   box-shadow: 0 0 0.3rem black;
+  margin: 0.25rem;
 }
 
 .hero-buttons-container {
@@ -94,7 +95,7 @@
 }
 
 .hero_img img {
-  width: 40vw;
+  width: 70%;
   max-width: 28rem;
   margin: auto;
 }
@@ -278,7 +279,8 @@
 }
 
 .feature-img img {
-  width: 28rem;
+  width: 70%;
+  max-width: 25rem;
   margin: auto;
 }
 
@@ -460,7 +462,8 @@
 
 .how-to_grid_image .how-to-mobile-img {
   display: inline-block;
-  width: 25rem;
+  width: 70%;
+  max-width: 25rem;
 }
 
 #how-to-offer {

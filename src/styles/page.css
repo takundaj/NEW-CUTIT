@@ -151,7 +151,7 @@
   }
 
   .hero_img img {
-    width: 28rem;
+    width: 30rem;
     animation-name: fade-in-from-left;
     animation-duration: 2s;
     margin: auto;
@@ -292,7 +292,7 @@
 
 @media screen and (min-width: 992px) {
   .feature-grid {
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.6fr;
   }
 
   .feature-dropdowns {
@@ -309,6 +309,7 @@
 
   .feature-img img {
     width: 30rem;
+    max-width: 30rem;
     margin: 0;
   }
 }

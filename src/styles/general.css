@@ -123,6 +123,10 @@ ul li::marker {
   margin: auto;
 }
 
+.align-centre {
+  text-align: center;
+}
+
 .align-left {
   text-align: left;
 }

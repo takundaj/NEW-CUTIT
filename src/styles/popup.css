@@ -20,13 +20,14 @@
 }
 
 .popup {
-  width: 95%;
+  width: 90%;
+  max-width: 50rem;
   margin: auto;
 }
 
 @media screen and (min-width: 768px) {
   .popup {
-    width: 35vw;
+    width: 50rem;
     margin: auto;
   }
 }
@@ -37,6 +38,7 @@
   background-color: #fff;
   padding: 1rem;
   border: 0.75rem solid var(--primary);
+  padding: 1rem 2rem;
 }
 
 @media screen and (min-width: 768px) {

@@ -271,6 +271,7 @@
 .feature-dropdowns {
   padding-top: 2vw;
   grid-row: 2/3;
+  padding: 1rem;
 }
 
 .feature-img {
@@ -515,7 +516,7 @@
 
   .how-to_grid_image .how-to-desktop-img {
     display: inline-block;
-    width: 45rem;
+    width: 52rem;
   }
 
   .how-to_grid_image .how-to-mobile-img {

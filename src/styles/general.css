@@ -163,7 +163,7 @@ section {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 60% !important;
+    width: 60%;
     margin: 6vw auto;
   }
 }

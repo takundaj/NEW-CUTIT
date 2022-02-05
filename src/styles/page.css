@@ -589,6 +589,7 @@
 
 .price-section-container {
   width: 80%;
+  max-width: 1400px;
 }
 
 .price-cards_container-desktop {

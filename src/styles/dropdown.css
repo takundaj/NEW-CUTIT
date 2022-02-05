@@ -63,10 +63,18 @@
   max-height: 0;
 }
 
+.collapsible a {
+  display: none;
+}
+
 .collapsed {
   opacity: 1;
   max-height: 100vh;
   transition: all 0.75s;
+}
+
+.collapsed a {
+  display: inline-block;
 }
 
 .dropdown-active {

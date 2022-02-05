@@ -151,6 +151,7 @@ section {
 .container {
   width: 90%;
   margin: 15vw auto;
+  max-width: 1150px;
   /* border: 2px solid black; */
 }
 

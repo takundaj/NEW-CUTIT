@@ -149,7 +149,7 @@ section {
 }
 
 .container {
-  width: 90% !important;
+  width: 90%;
   margin: 15vw auto;
   /* border: 2px solid black; */
 }
@@ -163,7 +163,7 @@ section {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 60%;
+    width: 60% !important;
     margin: 6vw auto;
   }
 }

@@ -30,6 +30,15 @@
   -ms-overflow-style: none;
 }
 
+body {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;

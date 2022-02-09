@@ -23,19 +23,7 @@
   font-style: normal;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -ms-overflow-style: none;
-}
-
-body {
-  -ms-overflow-style: none;
-  overflow: -moz-scrollbars-none;
-}
-
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 

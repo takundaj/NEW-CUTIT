@@ -49,10 +49,6 @@
   overflow-y: scroll;
 }
 
-.price-card_list::-webkit-scrollbar {
-  opacity: 1;
-}
-
 .price-card_list li {
   list-style: url(/src/images/price-list-tick.svg);
   list-style-image: url(/src/images/price-list-tick.svg);

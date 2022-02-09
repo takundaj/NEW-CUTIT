@@ -23,6 +23,12 @@
   font-style: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -147,6 +153,11 @@ section {
   margin: 15vw auto;
   max-width: 1150px;
   /* border: 2px solid black; */
+}
+
+.container::-webkit-scrollbar,
+section::-webkit-scrollbar {
+  opacity: 0;
 }
 
 @media screen and (min-width: 992px) {

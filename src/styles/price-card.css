@@ -58,6 +58,10 @@
   margin-right: 1.5rem;
 }
 
+.price-card_list::-webkit-scrollbar {
+  display: none;
+}
+
 .price-card_btn {
   font-size: 1.4rem;
   margin-top: 2rem;

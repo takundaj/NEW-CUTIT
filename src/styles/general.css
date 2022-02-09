@@ -157,7 +157,7 @@ section {
 
 .container::-webkit-scrollbar,
 section::-webkit-scrollbar {
-  opacity: 0;
+  display: none;
 }
 
 @media screen and (min-width: 992px) {

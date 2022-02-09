@@ -58,7 +58,8 @@
   margin-right: 1.5rem;
 }
 
-.price-card_list::-webkit-scrollbar {
+.price-card_list::-webkit-scrollbar,
+.price-cards_container-desktop::-webkit-scrollbar {
   display: none;
 }
 

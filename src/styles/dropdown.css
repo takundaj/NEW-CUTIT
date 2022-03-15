@@ -44,6 +44,7 @@
   margin-right: 2rem;
   margin-left: 1.5rem;
   background-color: var(--accent);
+  overflow: hidden;
 }
 
 .dropdown_icon {

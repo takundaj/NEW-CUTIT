@@ -47,6 +47,10 @@
   overflow: hidden;
 }
 
+.dropdown_icon-container i {
+color: black;
+}
+
 .dropdown_icon {
   color: var(--secondary);
 }
